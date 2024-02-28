@@ -5,7 +5,24 @@ body,
 body > div {
   height: 100vh;
   width: 100vw;
+  background-color: darkgrey;
 }
+
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  text-align: center;
+  padding: 25px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+p{
+  font-size: 25px;
+}
+
 #container {
   height: 100%;
   display: flex;
@@ -15,28 +32,53 @@ body > div {
   display: flex;
 }
 #navbar {
-  padding: 2em;
+  padding: 10px 32px;
   justify-content: space-evenly;
+  background-color: aliceblue;
 }
 #main-section {
   flex-grow: 1;
 }
 #main-section > div {
   width: 100%;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  padding: 60px 300px;
 }
-.red {
-  background-color: #eb173b;
-  color: white;
+
+#brasil{
+  color: rgb(0, 0, 0);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: aliceblue;
+  justify-content: center;
+  padding: 5px 0px 0px 0px;
+}
+
+.yellow {
+  background-color: #fadf48;
+  color: aliceblue;
 }
 .blue {
-  background-color: #275db3;
-  color: white;
+  background-color: #113979;
+  color: aliceblue;
+}
+
+.green{
+  background-color: #04a727;
+  color: aliceblue;
 }
 
 .home{
-  background-color: rgb(131, 128, 128);
-  color: white;
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png);
+  /* color: white; */
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 1020px;
+  background-position: center;
+
 }

@@ -5,12 +5,16 @@ body,
 body > div {
   height: 100vh;
   width: 100vw;
-  background-color: darkgrey;
+  /* background-color: darkgrey; */
+  background-image: url(https://www.isocfoundation.org/wp-content/uploads/2021/04/global-header.png);
+  background-repeat: no-repeat;
+  background-attachment:fixed ;
+  background-size: cover;
 }
 
 h1{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: black;
+  color: aliceblue;
   text-align: center;
   padding: 25px;
 }
